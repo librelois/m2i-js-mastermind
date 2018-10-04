@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+    border: 1px solid black;
+}
+
+[class*="row"] {
+    height: 50px;
+}
+
+.solution {
+    background-color: black;
+}
