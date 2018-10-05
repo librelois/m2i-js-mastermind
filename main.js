@@ -143,6 +143,7 @@ function show_indices(indices) {
 }
 
 function show_user_attemp() {
+    $("#attemps_remain").text(""+(MAX_ATTEMPS - countAttemps));
     let user_attemp_index = (MAX_ATTEMPS - countAttemps) * 4;
     console.log($(".row_user_attemp")[MAX_ATTEMPS - countAttemps]);
     $(".row_user_attemp")[MAX_ATTEMPS - countAttemps].style.display = 'flex';
